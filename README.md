@@ -1,8 +1,15 @@
 # DeepVIO-PX4
 Simulating Drone Navigation in PX4 Environment via Traditional EKF-based Monocular VIO and extending it to CNN-Visual-Inertial Fusion
 
-## Setup
-The current setup is tested in PX4-Gazebo Harmonic environment with a satellite map overlaid on the Gazebo Surface with a downward facing Monocular Camera.
+## Setup & Structure
+The current setup is tested in PX4-Gazebo Harmonic environment with a satellite map overlaid on the Gazebo Surface with a downward facing Monocular Camera & IMU Sensor. 
+
+The folder structure - 
+
+imu_nav: Implementation for pure Inertial Odometry (with an option to add bias and gaussian noise)
+vo_nav: Implementation on Visual Odometry, evaluated using ORB-FLANN & Sparse LK tracker
+vio_nav: ESEKF-driven Visual & Inertial Fusion for Localization
+deep_vio_nav: Implementation for CNN-based VIO with Pose Graph Optimization
 
 ## This repository covers the following parts of a multi-sensor fusion system
 
