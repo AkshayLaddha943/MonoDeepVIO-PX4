@@ -2,7 +2,7 @@
 Simulating Drone Navigation in PX4 Environment via Traditional EKF-based Monocular VIO and extending it to CNN-Visual-Inertial Fusion
 
 ## Setup & Structure
-The current setup is tested in PX4-Gazebo Harmonic environment with a satellite map overlaid on the Gazebo Surface with a downward facing Monocular Camera & IMU Sensor. 
+The current setup is tested in PX4-Gazebo Harmonic environment with a satellite map overlaid on the Gazebo Surface with a downward facing Monocular Camera & IMU Sensor. For setting up the PX4 Simulation Environment, Please follow the steps in my [repository](https://github.com/AkshayLaddha943/PX4-Simulation-Stack) 
 
 The folder structure - 
 
